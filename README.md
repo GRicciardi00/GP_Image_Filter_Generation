@@ -1,4 +1,4 @@
-# Generatore_filtri_ottimi_per_immagini_GP
+# Generazione_filtri_ottimi_per_immagini_GP
 ## LIBRERIE
 Gli algoritmi GP funzionano solo su linux in quanto DEAP utilizza il multithreading
 - Opencv
