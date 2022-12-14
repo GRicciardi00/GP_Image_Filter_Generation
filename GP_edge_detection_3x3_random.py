@@ -216,10 +216,6 @@ def evalImage(individual, points):
 					)))
 			except:
 				result_GP[p]=1
-		result_GP[result_GP>=30] = 255
-		result_GP[result_GP<30]= 0
-		result_sample[result_sample >= 30] = 255
-		result_sample[result_sample < 30] = 0
 		for pi in points:
 			try:
 				sqerror_single += numpy.power( ( result_GP[pi] - result_sample[pi]), 2)
