@@ -8,7 +8,7 @@ from datetime import datetime
 #TRAINING EDGE DETECTION
 def edge_detection(size):
 	path_original_edge_detection = 'dataset/train/train_edge_detection' #Full images folder
-	path_expected_edge_detection = 'dataset/train/train_edge_detection/expected/nero' #Expected images folder 
+	path_expected_edge_detection = 'dataset/train/train_edge_detection/expected' #Expected images folder 
 	files_original_edge_detection = list(filter(lambda f: isfile(join(path_original_edge_detection,f)), listdir(path_original_edge_detection)))
 	files_expected_edge_detection = list(filter(lambda f: isfile(join(path_expected_edge_detection,f)), listdir(path_expected_edge_detection)))
 	for txt in files_original_edge_detection:
