@@ -1,18 +1,20 @@
 # GENERAZIONE DI FILTRI OTTIMI PER IMMAGINI TRAMITE PROGRAMMAZIONE GENETICA
 
-## LIBRERIE
-Gli algoritmi GP funzionano solo su linux in quanto DEAP utilizza il multithreading
+## LIBRARIES
+The implementation is compatible only with Linux OS.
 - Opencv
 - DEAP
 - Numpy
 - PIL
 - Matplotlib
 - Graphviz
+## ABOUT IT
 ## HOW TO USE
-Nella cartella dataset sono presenti tutte le immagini usate per il training ed il testing ed i vari algoritmi usati per le operazioni preliminari.
-Per il training eseguire il file "GP_training.py" e seguire la guida sul terminale, successivamente è possibile eseguire il test con i filtri ottenuti modificando il file "GP_test.py" impostando i percorsi dei file _best.pkl necessari.
-Il file ''image_processing.py'' utilizza openCV per modificare le immagini con metodi comuni di edge detection e denoise.
-Nella cartella "risultati" è presente l'algoritmo utilizzato per la valutazione dei risultati ottenuti.
+The dataset folder contains all the images used for training and testing and the various algorithms used for preliminary operations on them.
+For the training run the file 'GP_training.py' and follow the guide on the terminal, then you can run the test with the filters obtained by modifying the file 'GP_test.py' by setting the paths of the necessary _best.pkl files.
+The ''image_processing.py'' file uses openCV to edit images with common methods of edge detection and denoise.
+The 'results' folder has the algorithm used to evaluate the results obtained.
+
 
 
 
